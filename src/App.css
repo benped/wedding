@@ -1,8 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Andale Mono";
+  src: local("Andale Mono"), local("AndaleMono"), local("Consolas"),
+    local("Courier New");
+}
+
+@font-face {
+  font-family: "Harmond";
+  src: url("/assets/Fonts/Harmond-SemiBoldCondensed.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 .logo {
