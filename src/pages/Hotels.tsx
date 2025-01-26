@@ -11,11 +11,11 @@ const Hotels = () => {
             Close to Venue
           </h3>
           <div className="pl-4">
-            <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[280px] sm:h-44 mb-4">
+            <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40 mb-2">
               <div className="flex-1">
                 <h2 className="text-3xl text-sage-green font-serif mb-2">Graduate by Hilton</h2>
                 <p className="mb-1 text-sage-green">615 Washington Ave SE</p>
-                <p className="mb-4 text-sage-green">Minneapolis, MN 55414</p>
+                <p className="mb-2 text-sage-green">Minneapolis, MN 55414</p>
                 <div className="flex gap-8">
                   <a
                     href="https://www.hilton.com/en/hotels/mspgmgu-graduate-minneapolis/?SEO_id=GMB-AMER-GU-MSPGMGU&y_source=1_MTA1MzY0NDczOC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
@@ -39,14 +39,14 @@ const Hotels = () => {
                 />
               </div>
             </div>
-            <div className="py-5">
+            <div className="py-2">
               <hr className="border-sage-green/30" />
             </div>
-            <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[280px] sm:h-44 mb-4">
+            <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40 mb-2">
               <div className="flex-1">
                 <h2 className="text-3xl text-sage-green font-serif mb-2">Hilton Garden Inn Minneapolis University</h2>
                 <p className="mb-1 text-sage-green">511 SE Huron Blvd</p>
-                <p className="mb-4 text-sage-green">Minneapolis, MN 55414</p>
+                <p className="mb-2 text-sage-green">Minneapolis, MN 55414</p>
                 <div className="flex gap-8">
                   <a
                     href="https://www.hilton.com/en/hotels/msputgi-hilton-garden-inn-minneapolis-university-area/?SEO_id=GMB-AMER-GI-MSPUTGI&y_source=1_NTg4NTgyMi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
@@ -70,14 +70,14 @@ const Hotels = () => {
                 />
               </div>
             </div>
-            <div className="py-5">
+            <div className="py-2">
               <hr className="border-sage-green/30" />
             </div>
-            <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[280px] sm:h-44">
+            <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40">
               <div className="flex-1">
                 <h2 className="text-3xl text-sage-green font-serif mb-2">Hampton Inn & Suites Minneapolis University Area</h2>
                 <p className="mb-1 text-sage-green">2812 University Ave SE</p>
-                <p className="mb-4 text-sage-green">Minneapolis, MN 55414</p>
+                <p className="mb-2 text-sage-green">Minneapolis, MN 55414</p>
                 <div className="flex gap-8">
                   <a
                     href="https://www.hilton.com/en/hotels/mspuahx-hampton-suites-minneapolis-university-area/?SEO_id=GMB-AMER-HX-MSPUAHX&y_source=1_MzgxMDkwMS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
@@ -110,11 +110,11 @@ const Hotels = () => {
             Close to Airport
           </h2>
           <div className="pl-4">
-            <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[280px] sm:h-44">
+            <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40">
               <div className="flex-1">
                 <h2 className="text-3xl text-sage-green font-serif mb-2">Hilton Minneapolis-St. Paul Airport</h2>
                 <p className="mb-1 text-sage-green">3800 American Blvd E</p>
-                <p className="mb-4 text-sage-green">Bloomington, MN 55425</p>
+                <p className="mb-2 text-sage-green">Bloomington, MN 55425</p>
                 <div className="flex gap-8">
                   <a
                     href="https://www.hilton.com/en/hotels/mspahhf-hilton-minneapolis-st-paul-airport/?SEO_id=GMB-AMER-HH-MSPAHHF&y_source=1_MTIyMDg4NC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
