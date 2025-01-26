@@ -9,7 +9,7 @@ const Navigation = () => {
         <nav className="w-full p-4">
             {/* Hamburger Menu Button - Only visible on mobile */}
             <button
-                className="md:hidden absolute left-4 top-4 text-sage-green z-20 text-7xl"
+                className="md:hidden fixed right-4 top-4 text-sage-green z-20 text-4xl p-2"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
                 {isMenuOpen ? '✕' : '☰'}
@@ -19,10 +19,10 @@ const Navigation = () => {
             <ul className={`
                 flex flex-col md:flex-row 
                 md:justify-start md:space-x-8 md:space-y-0
-                space-y-4 
+                space-y-6 
                 max-w-7xl mx-auto px-4 
                 font-altivo
-                ${isMenuOpen ? 'absolute inset-0 bg-white pt-16 px-8' : 'hidden md:flex'}
+                ${isMenuOpen ? 'fixed inset-0 bg-white pt-20 px-8 z-10' : 'hidden md:flex'}
             `}>
                 <li>
                     <NavLink

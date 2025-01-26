@@ -6,12 +6,12 @@ const Hotels = () => {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         {/* Close to Venue Section */}
-        <details className="mb-8 open:mb-12 md:pr-9">
-          <summary className="text-3xl text-sage-green font-serif mb-6 cursor-pointer hover:text-green-800">
+        <div className="mb-8 md:pr-9">
+          <h3 className="font-altivo text-3xl md:text-4xl lg:text-5xl text-sage-green mb-8 whitespace-normal text-center">
             Close to Venue
-          </summary>
+          </h3>
           <div className="pl-4">
-            <div className="flex items-start gap-4 h-44">
+            <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[280px] sm:h-44 mb-4">
               <div className="flex-1">
                 <h2 className="text-3xl text-sage-green font-serif mb-2">Graduate by Hilton</h2>
                 <p className="mb-1 text-sage-green">615 Washington Ave SE</p>
@@ -31,7 +31,7 @@ const Hotels = () => {
                   </a>
                 </div>
               </div>
-              <div className="w-40 h-32 rounded-xl overflow-hidden flex-shrink-0">
+              <div className="w-full sm:w-40 h-32 rounded-xl overflow-hidden flex-shrink-0">
                 <img
                   src="assets/images/graduate.jpeg"
                   alt="Graduate by Hilton"
@@ -42,7 +42,7 @@ const Hotels = () => {
             <div className="py-5">
               <hr className="border-sage-green/30" />
             </div>
-            <div className="flex items-start gap-4 h-44 mb-8">
+            <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[280px] sm:h-44 mb-4">
               <div className="flex-1">
                 <h2 className="text-3xl text-sage-green font-serif mb-2">Hilton Garden Inn Minneapolis University</h2>
                 <p className="mb-1 text-sage-green">511 SE Huron Blvd</p>
@@ -62,7 +62,7 @@ const Hotels = () => {
                   </a>
                 </div>
               </div>
-              <div className="w-40 h-32 rounded-xl overflow-hidden flex-shrink-0">
+              <div className="w-full sm:w-40 h-32 rounded-xl overflow-hidden flex-shrink-0">
                 <img
                   src="assets/images/gardeninn.jpeg"
                   alt="Hilton Garden Inn Minneapolis University"
@@ -73,7 +73,7 @@ const Hotels = () => {
             <div className="py-5">
               <hr className="border-sage-green/30" />
             </div>
-            <div className="flex items-start gap-4 h-44">
+            <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[280px] sm:h-44">
               <div className="flex-1">
                 <h2 className="text-3xl text-sage-green font-serif mb-2">Hampton Inn & Suites Minneapolis University Area</h2>
                 <p className="mb-1 text-sage-green">2812 University Ave SE</p>
@@ -93,7 +93,7 @@ const Hotels = () => {
                   </a>
                 </div>
               </div>
-              <div className="w-40 h-32 rounded-xl overflow-hidden flex-shrink-0">
+              <div className="w-full sm:w-40 h-32 rounded-xl overflow-hidden flex-shrink-0">
                 <img
                   src="assets/images/hampton.jpeg"
                   alt="Hampton Inn & Suites Minneapolis University Area"
@@ -102,16 +102,15 @@ const Hotels = () => {
               </div>
             </div>
           </div>
-        </details>
+        </div>
 
         {/* Close to Airport Section */}
-        <details className="mb-8 md:pr-9">
-          <summary className="text-3xl text-sage-green font-serif mb-6 cursor-pointer hover:text-green-800">
+        <div className="mb-8 md:pr-9">
+          <h2 className="font-altivo text-3xl md:text-4xl lg:text-5xl text-sage-green mb-8 whitespace-normal text-center">
             Close to Airport
-          </summary>
+          </h2>
           <div className="pl-4">
-            {/* Add airport hotels here with the same structure */}
-            <div className="flex items-start gap-4 h-44">
+            <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[280px] sm:h-44">
               <div className="flex-1">
                 <h2 className="text-3xl text-sage-green font-serif mb-2">Hilton Minneapolis-St. Paul Airport</h2>
                 <p className="mb-1 text-sage-green">3800 American Blvd E</p>
@@ -131,7 +130,7 @@ const Hotels = () => {
                   </a>
                 </div>
               </div>
-              <div className="w-40 h-32 rounded-xl overflow-hidden flex-shrink-0">
+              <div className="w-full sm:w-40 h-32 rounded-xl overflow-hidden flex-shrink-0">
                 <img
                   src="assets/images/airporthilton.webp"
                   alt="Hilton Minneapolis-St. Paul Airport"
@@ -140,7 +139,7 @@ const Hotels = () => {
               </div>
             </div>
           </div>
-        </details>
+        </div>
       </div>
     </div>
   );
