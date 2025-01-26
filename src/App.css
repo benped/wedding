@@ -26,6 +26,22 @@ body {
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Altivo";
+  src: url("/assets/Fonts/altivo-regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Altivo-Bold";
+  src: url("/assets/Fonts/altivo-bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

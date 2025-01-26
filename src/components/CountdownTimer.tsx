@@ -20,7 +20,7 @@ const CountdownTimer = () => {
   }, []);
 
   return (
-    <div className="fixed right-0 top-0 h-screen w-16 bg-gray-800 overflow-hidden z-50">
+    <div className="hidden md:fixed md:block right-0 top-0 h-screen w-16 bg-gray-800 overflow-hidden z-50">
       <div
         className="animate-scroll whitespace-nowrap"
         style={{
