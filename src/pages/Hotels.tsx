@@ -4,7 +4,7 @@ const Hotels = () => {
       <h1 className="text-4xl text-sage-green font-serif mb-4">HOTELS</h1>
       <p className="text-base mb-12 text-sage-green">WE DIDN'T BLOCK OUT ANY HOTELS FOR OUR WEDDING, BUT HERE ARE SEVERAL HOTEL OPTIONS.</p>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:pr-9">
         {/* Close to Venue Section */}
         <div className="mb-8 md:pr-9">
           <h3 className="font-altivo text-3xl md:text-4xl lg:text-5xl text-sage-green mb-8 whitespace-normal text-center">
@@ -110,7 +110,7 @@ const Hotels = () => {
             Close to Airport
           </h2>
           <div className="pl-4">
-            <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40">
+            <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40 mb-2">
               <div className="flex-1">
                 <h2 className="text-3xl text-sage-green font-serif mb-2">Hilton Minneapolis-St. Paul Airport</h2>
                 <p className="mb-1 text-sage-green">3800 American Blvd E</p>
@@ -134,6 +134,72 @@ const Hotels = () => {
                 <img
                   src="assets/images/airporthilton.webp"
                   alt="Hilton Minneapolis-St. Paul Airport"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Downtown Options - Moved inside the second column */}
+          <h2 className="font-altivo text-3xl md:text-4xl lg:text-5xl text-sage-green mb-8 whitespace-normal text-center">
+            Downtown Options
+          </h2>
+          <div className="pl-4">
+            <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40 mb-2">
+              <div className="flex-1">
+                <h2 className="text-3xl text-sage-green font-serif mb-2">Hewing Hotel</h2>
+                <p className="mb-1 text-sage-green">300 N Washington Ave</p>
+                <p className="mb-2 text-sage-green">Minneapolis, MN</p>
+                <div className="flex gap-8">
+                  <a
+                    href="https://hewinghotel.com/"
+                    className="text-sage-green hover:text-green-800 font-altivo"
+                  >
+                    WEBSITE
+                  </a>
+                  <a
+                    href="https://www.google.com/maps/place/Hewing+Hotel/@44.9849577,-93.2747567,17z/data=!3m1!5s0x52b3328f5c609015:0xeb15eb900e64bf44!4m10!3m9!1s0x52b3328f5c948e67:0xa004337ad394d05f!5m3!1s2025-05-03!4m1!1i2!8m2!3d44.9849172!4d-93.2725463!16s%2Fg%2F11cm03br0v?entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D"
+                    className="text-sage-green hover:text-green-800 font-altivo"
+                  >
+                    DIRECTIONS
+                  </a>
+                </div>
+              </div>
+              <div className="w-full sm:w-40 h-32 rounded-xl overflow-hidden flex-shrink-0">
+                <img
+                  src="assets/images/hewing.jpeg"
+                  alt="Hewing Hotel"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+            <div className="py-2">
+              <hr className="border-sage-green/30" />
+            </div>
+            <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40">
+              <div className="flex-1">
+                <h2 className="text-3xl text-sage-green font-serif mb-2">Emery Autograph Collection Hotel</h2>
+                <p className="mb-1 text-sage-green">215 4th St South</p>
+                <p className="mb-2 text-sage-green">Minneapolis, MN</p>
+                <div className="flex gap-8">
+                  <a
+                    href="https://www.marriott.com/en-us/hotels/mspak-emery-autograph-collection/"
+                    className="text-sage-green hover:text-green-800 font-altivo"
+                  >
+                    WEBSITE
+                  </a>
+                  <a
+                    href="https://www.google.com/maps/place/Emery,+Autograph+Collection/@44.9784231,-93.2677148,17z/data=!4m10!3m9!1s0x52b3329b890741bb:0xe766f7f6ce0f1ba8!5m3!1s2025-05-03!4m1!1i2!8m2!3d44.978277!4d-93.2665375!16s%2Fg%2F1td_gx3x?entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D"
+                    className="text-sage-green hover:text-green-800 font-altivo"
+                  >
+                    DIRECTIONS
+                  </a>
+                </div>
+              </div>
+              <div className="w-full sm:w-40 h-32 rounded-xl overflow-hidden flex-shrink-0">
+                <img
+                  src="assets/images/emery.jpeg"
+                  alt="Emery Autograph Collection Hotel"
                   className="w-full h-full object-cover"
                 />
               </div>
