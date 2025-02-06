@@ -1,6 +1,6 @@
 import { Marker, Popup } from 'react-leaflet';
-import { Icon, LatLngExpression, DivIcon } from 'leaflet';
-import { Hotel, MapPin, PartyPopper, ShoppingBag, Church, Utensils, Bed } from 'lucide-react';
+import { LatLngExpression, DivIcon } from 'leaflet';
+import { MapPin, PartyPopper,  Church, Utensils, Bed } from 'lucide-react';
 import { renderToString } from 'react-dom/server';
 import { MarkerType } from '../constants/mapData';
 import MarkerClusterGroup from 'react-leaflet-cluster';
