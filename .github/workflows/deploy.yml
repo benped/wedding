@@ -33,12 +33,10 @@ jobs:
       - name: Build
         run: |
           npm run build
-          echo "Build output:"
+          echo "Checking dist directory contents:"
           ls -la dist/
-          if [ -d "dist" ] || [ -z "$(ls -A dist)" ]; then
-            echo "Error: dist directory is empty or does not exist"
-            exit 1
-          fi
+          echo "Making sure files exist:"
+          [ -f "dist/index.html" ] || exit 1
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
