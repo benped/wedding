@@ -20,6 +20,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          submodules: 'recursive'
+          fetch-depth: 0
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
@@ -32,6 +35,10 @@ jobs:
           npm run build
           echo "Build output:"
           ls -la dist/
+          if [ -d "dist" ] || [ -z "$(ls -A dist)" ]; then
+            echo "Error: dist directory is empty or does not exist"
+            exit 1
+          fi
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
