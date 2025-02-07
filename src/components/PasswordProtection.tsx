@@ -7,7 +7,7 @@ const PasswordProtection: React.FC = () => {
     const navigate = useNavigate();
 
     const correctPassword = import.meta.env.VITE_SITE_PASSWORD;
-
+    const correctPassword2 = import.meta.env.VITE_SITE_PASSWORD2;
     useEffect(() => {
         // Check if already authenticated
         const isAuthenticated = sessionStorage.getItem('isAuthenticated');
@@ -18,7 +18,7 @@ const PasswordProtection: React.FC = () => {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        if (password === correctPassword) {
+        if (password === correctPassword || password === correctPassword2) {
             sessionStorage.setItem('isAuthenticated', 'true');
             navigate('/');
         } else {
@@ -36,13 +36,9 @@ const PasswordProtection: React.FC = () => {
                 </div>
                 <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
                     <div>
-                        <label htmlFor="password" className="sr-only">
-                            Password
-                        </label>
                         <input
-                            id="password"
+                            id="code"
                             name="password"
-                            type="password"
                             required
                             className="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 bg-gray-50 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
                             placeholder="Enter password"
