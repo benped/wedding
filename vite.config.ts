@@ -3,6 +3,10 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/',
   plugins: [react()],
+  base: './',  // This is important for GitHub Pages
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+  }
 })
