@@ -10,6 +10,7 @@ import Mystery from './pages/Mystery';
 import CountdownTimer from './components/CountdownTimer';
 import PasswordProtection from './components/PasswordProtection';
 import ProtectedRoute from './components/ProtectedRoute';
+import FAQ from './pages/FAQ';
 
 function App() {
   return (
@@ -63,6 +64,14 @@ function App() {
             element={
               <ProtectedRoute>
                 <Mystery />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/faq"
+            element={
+              <ProtectedRoute>
+                <FAQ />
               </ProtectedRoute>
             }
           />

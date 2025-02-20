@@ -1,6 +1,6 @@
 import { Marker, Popup } from 'react-leaflet';
 import { LatLngExpression, DivIcon } from 'leaflet';
-import { MapPin, PartyPopper,  Church, Utensils, Bed } from 'lucide-react';
+import { MapPin, PartyPopper, Church, Utensils } from 'lucide-react';
 import { renderToString } from 'react-dom/server';
 import { MarkerType } from '../constants/mapData';
 import MarkerClusterGroup from 'react-leaflet-cluster';
@@ -20,42 +20,32 @@ const MapMarker = ({ position, type, title, address, description, website, ratin
         let icon;
         switch (type) {
             case 'hotel':
-                icon = renderToString(
-                    <Bed className="text-sage-green w-8 h-8" />
-                );
+                icon = `<img src="/assets/images/hotel.svg" class="w-12 h-12" alt="hotel" />`;
                 break;
             case 'venue':
-                icon = renderToString(
-                    <Church className="text-red-500 w-8 h-8" />
-                );
+                icon = `<img src="/assets/images/wedding.svg" class="w-12 h-12" alt="venue" />`;
                 break;
             case 'reception':
-                icon = renderToString(
-                    <PartyPopper className="text-sage-green w-8 h-8" />
-                );
+                icon = `<img src="/assets/images/reception.svg" class="w-18 h-18" alt="reception" />`;
                 break;
             case 'activity':
-                icon = renderToString(
-                    <PartyPopper className="text-sage-green w-8 h-8" />
-                );
+                icon = `<img src="/assets/images/shop.svg" class="w-12 h-12" alt="activity" />`;
                 break;
             case 'restaurant':
             case 'bakery':
-                icon = renderToString(
-                    <Utensils className="text-sage-green w-8 h-8" />
-                );
+                icon = `<img src="/assets/images/food.svg" class="w-12 h-12" alt="food" />`;
                 break;
             default:
                 icon = renderToString(
-                    <MapPin className="text-sage-green w-8 h-8" />
+                    <MapPin className="text-sage-green w-12 h-12" />
                 );
         }
 
         return new DivIcon({
             html: icon,
             className: 'custom-div-icon',
-            iconSize: [32, 32],
-            iconAnchor: [16, 32],
+            iconSize: [48, 48],
+            iconAnchor: [24, 48],
         });
     };
 

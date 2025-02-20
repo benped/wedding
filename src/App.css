@@ -82,6 +82,10 @@ h3 {
   @apply font-['Harmond'] text-4xl md:text-5xl lg:text-6xl text-sage-green mb-4;
 }
 
+h4 {
+  @apply font-['Harmond'] text-3xl md:text-4xl lg:text-4xl text-sage-green mb-4;
+}
+
 .custom-div-icon {
   background: none;
   border: none;
