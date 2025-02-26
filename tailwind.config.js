@@ -17,8 +17,8 @@ export default {
       },
       fontFamily: {
         harmond: ["Harmond", "serif"],
-        sans: ["Andale Mono", "monospace"],
-        altivo: ["Altivo", "sans-serif"],
+        mono: ["Andale Mono", "monospace"],
+        sans: ["Open Sans", "sans-serif"],
       },
     },
   },

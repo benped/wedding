@@ -21,7 +21,7 @@ const Navigation = () => {
                 md:justify-start md:space-x-8 md:space-y-0
                 space-y-6 
                 max-w-7xl mx-auto px-4 
-                font-altivo
+                font-['Open Sans']
                 ${isMenuOpen ? 'fixed inset-0 bg-white pt-20 px-8 z-10' : 'hidden md:flex'}
             `}>
                 <li>
@@ -29,7 +29,7 @@ const Navigation = () => {
                         to="/"
                         onClick={() => setIsMenuOpen(false)}
                         className={({ isActive }) =>
-                            `text-sage-green hover:text-green-800 ${isActive ? 'text-green-800 font-["Altivo-Bold"]' : ''}`
+                            `text-sage-green hover:text-green-800 ${isActive ? 'text-green-800 font-bold' : ''}`
                         }
                     >
                         HOME
@@ -40,7 +40,7 @@ const Navigation = () => {
                         to="/schedule"
                         onClick={() => setIsMenuOpen(false)}
                         className={({ isActive }) =>
-                            `text-sage-green hover:text-green-800 ${isActive ? 'text-green-800 font-["Altivo-Bold"]' : ''}`
+                            `text-sage-green hover:text-green-800 ${isActive ? 'text-green-800 font-bold' : ''}`
                         }
                     >
                         SCHEDULE
@@ -51,7 +51,7 @@ const Navigation = () => {
                         to="/hotels"
                         onClick={() => setIsMenuOpen(false)}
                         className={({ isActive }) =>
-                            `text-sage-green hover:text-green-800 ${isActive ? 'text-green-800 font-["Altivo-Bold"]' : ''}`
+                            `text-sage-green hover:text-green-800 ${isActive ? 'text-green-800 font-bold' : ''}`
                         }
                     >
                         HOTELS
@@ -62,7 +62,7 @@ const Navigation = () => {
                         to="/minneapolis"
                         onClick={() => setIsMenuOpen(false)}
                         className={({ isActive }) =>
-                            `text-sage-green hover:text-green-800 ${isActive ? 'text-green-800 font-["Altivo-Bold"]' : ''}`
+                            `text-sage-green hover:text-green-800 ${isActive ? 'text-green-800 font-bold' : ''}`
                         }
                     >
                         MINNEAPOLIS
@@ -73,7 +73,7 @@ const Navigation = () => {
                         to="/registry"
                         onClick={() => setIsMenuOpen(false)}
                         className={({ isActive }) =>
-                            `text-sage-green hover:text-green-800 ${isActive ? 'text-green-800 font-["Altivo-Bold"]' : ''}`
+                            `text-sage-green hover:text-green-800 ${isActive ? 'text-green-800 font-bold' : ''}`
                         }
                     >
                         REGISTRY
@@ -84,7 +84,7 @@ const Navigation = () => {
                         to="/mystery"
                         onClick={() => setIsMenuOpen(false)}
                         className={({ isActive }) =>
-                            `text-sage-green hover:text-green-800 ${isActive ? 'text-green-800 font-["Altivo-Bold"]' : ''}`
+                            `text-sage-green hover:text-green-800 ${isActive ? 'text-green-800 font-bold' : ''}`
                         }
                     >
                         MYSTERY
@@ -95,7 +95,7 @@ const Navigation = () => {
                         to="/faq"
                         onClick={() => setIsMenuOpen(false)}
                         className={({ isActive }) =>
-                            `text-sage-green hover:text-green-800 ${isActive ? 'text-green-800 font-["Altivo-Bold"]' : ''}`
+                            `text-sage-green hover:text-green-800 ${isActive ? 'text-green-800 font-bold' : ''}`
                         }
                     >
                         FAQ
