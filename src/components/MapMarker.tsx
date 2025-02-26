@@ -65,7 +65,7 @@ const MapMarker = ({ position, type, title, address, description, website, ratin
             <Marker position={position} icon={getIcon(type)}>
                 <Popup className="w-72">
                     <div className="flex flex-col gap-2">
-                        <h3 className="font-altivo text-lg font-bold text-sage-green">{title}</h3>
+                        <h3 className="font-sans text-lg font-bold text-sage-green">{title}</h3>
                         <p className="text-sm text-gray-600">{address}</p>
                         {rating && (
                             <p className="text-sm text-amber-600">
