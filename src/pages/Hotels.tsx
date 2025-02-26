@@ -1,15 +1,18 @@
 const Hotels = () => {
   return (
     <div className="min-h-[calc(100vh-4rem)] p-8 max-w-[1420px]">
-      <h1 className="text-4xl text-sage-green font-serif mb-4">HOTELS</h1>
-      <p className="text-base mb-12 text-sage-green">WE DIDN'T BLOCK OUT ANY HOTELS FOR OUR WEDDING, BUT HERE ARE SEVERAL HOTEL OPTIONS.</p>
+      <h1 className="text-4xl text-sage-green font-serif mb-4 pl-6">HOTELS</h1>
+      <p className="text-base mb-12 text-sage-green pl-6">WE DIDN'T BLOCK OUT ANY HOTELS FOR OUR WEDDING, BUT HERE ARE SEVERAL HOTEL OPTIONS.</p>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:pr-9">
         {/* Close to Venue Section */}
         <div className="mb-8 md:pr-9">
-          <h3 className="font-altivo text-3xl md:text-4xl lg:text-5xl text-sage-green mb-8 whitespace-normal text-center">
-            Close to Venue
+          <h3 className="font-serif text-3xl md:text-4xl lg:text-5xl text-sage-green mb-4 whitespace-normal text-left pl-4">
+            CLOSE TO VENUE
           </h3>
+            <div className="py-2">
+              <hr className="border-sage-green/30" />
+            </div>
           <div className="pl-4">
             <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40 mb-2">
               <div className="flex-1">
@@ -39,9 +42,6 @@ const Hotels = () => {
                 />
               </div>
             </div>
-            <div className="py-2">
-              <hr className="border-sage-green/30" />
-            </div>
             <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40 mb-2">
               <div className="flex-1">
                 <h2 className="text-3xl text-sage-green font-serif mb-2">Hilton Garden Inn Minneapolis University</h2>
@@ -69,9 +69,6 @@ const Hotels = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-            </div>
-            <div className="py-2">
-              <hr className="border-sage-green/30" />
             </div>
             <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40">
               <div className="flex-1">
@@ -106,9 +103,12 @@ const Hotels = () => {
 
         {/* Close to Airport Section */}
         <div className="mb-8 md:pr-9">
-          <h2 className="font-altivo text-3xl md:text-4xl lg:text-5xl text-sage-green mb-8 whitespace-normal text-center">
-            Close to Airport
-          </h2>
+        <h3 className="font-serif text-3xl md:text-4xl lg:text-5xl text-sage-green mb-4 whitespace-normal text-left pl-4">
+            CLOSE TO AIRPORT
+          </h3>
+          <div className="py-2">
+              <hr className="border-sage-green/30" />
+            </div>
           <div className="pl-4">
             <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40 mb-2">
               <div className="flex-1">
@@ -141,9 +141,12 @@ const Hotels = () => {
           </div>
 
           {/* Downtown Options - Moved inside the second column */}
-          <h2 className="font-altivo text-3xl md:text-4xl lg:text-5xl text-sage-green mb-8 whitespace-normal text-center">
-            Downtown Options
-          </h2>
+          <h3 className="font-serif text-3xl md:text-4xl lg:text-5xl text-sage-green mb-4 whitespace-normal text-left pl-4">
+            DOWNTOWN OPTIONS
+          </h3>
+          <div className="py-2">
+              <hr className="border-sage-green/30" />
+            </div>
           <div className="pl-4">
             <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40 mb-2">
               <div className="flex-1">
@@ -172,9 +175,6 @@ const Hotels = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-            </div>
-            <div className="py-2">
-              <hr className="border-sage-green/30" />
             </div>
             <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40">
               <div className="flex-1">
