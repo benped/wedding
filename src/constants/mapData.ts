@@ -35,7 +35,7 @@ export const hotels: MapLocation[] = [
     type: "hotel",
   },
   {
-    position: [44.97345, -93.237312],
+    position: [44.97345, -93.229512],
     title: "The Graduate Hotel University",
     address: "615 Washington Ave SE, Minneapolis, MN 55414",
     description: "Stylish hotel in the heart of campus",
