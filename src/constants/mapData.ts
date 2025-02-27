@@ -116,7 +116,7 @@ export const restaurants: MapLocation[] = [
 
 export const venue: MapLocation[] = [
   {
-    position: [44.937557, -93.298661],
+    position: [44.936000,-93.299200],
     title: "Lakewood Cemetery Chapel",
     address: "3600 Hennepin Ave, Minneapolis, MN 55408",
     description:
@@ -128,7 +128,7 @@ export const venue: MapLocation[] = [
 
 export const reception: MapLocation[] = [
   {
-    position: [44.963437, -93.195559],
+    position: [44.9570789,-93.1910000],
     title: "Paikka",
     address: "550 Vandalia St #165, St Paul, MN 55114",
     description:
