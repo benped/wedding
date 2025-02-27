@@ -7,7 +7,7 @@ const Hotels = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:pr-9">
         {/* Close to Venue Section */}
         <div className="mb-8 md:pr-9">
-          <h3 className="font-serif text-3xl md:text-4xl lg:text-5xl text-sage-green mb-4 whitespace-normal text-left pl-4">
+          <h3 className="font-serif text-3xl md:text-4xl lg:text-3xl text-sage-green mb-4 whitespace-normal text-left pl-4">
             CLOSE TO VENUE
           </h3>
             <div className="py-2">
@@ -16,7 +16,7 @@ const Hotels = () => {
           <div className="pl-4">
             <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40 mb-2">
               <div className="flex-1">
-                <h2 className="text-3xl text-sage-green font-serif mb-2">Graduate by Hilton</h2>
+                <h2 className="text-2xl text-sage-green font-serif mb-2">Graduate by Hilton</h2>
                 <p className="mb-1 text-sage-green">615 Washington Ave SE</p>
                 <p className="mb-2 text-sage-green">Minneapolis, MN 55414</p>
                 <div className="flex gap-8">
@@ -44,7 +44,7 @@ const Hotels = () => {
             </div>
             <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40 mb-2">
               <div className="flex-1">
-                <h2 className="text-3xl text-sage-green font-serif mb-2">Hilton Garden Inn Minneapolis University</h2>
+                <h2 className="text-2xl text-sage-green font-serif mb-2">Hilton Garden Inn Minneapolis University</h2>
                 <p className="mb-1 text-sage-green">511 SE Huron Blvd</p>
                 <p className="mb-2 text-sage-green">Minneapolis, MN 55414</p>
                 <div className="flex gap-8">
@@ -72,7 +72,7 @@ const Hotels = () => {
             </div>
             <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40">
               <div className="flex-1">
-                <h2 className="text-3xl text-sage-green font-serif mb-2">Hampton Inn & Suites Minneapolis University Area</h2>
+                <h2 className="text-2xl text-sage-green font-serif mb-2">Hampton Inn & Suites Minneapolis University Area</h2>
                 <p className="mb-1 text-sage-green">2812 University Ave SE</p>
                 <p className="mb-2 text-sage-green">Minneapolis, MN 55414</p>
                 <div className="flex gap-8">
@@ -103,7 +103,7 @@ const Hotels = () => {
 
         {/* Close to Airport Section */}
         <div className="mb-8 md:pr-9">
-        <h3 className="font-serif text-3xl md:text-4xl lg:text-5xl text-sage-green mb-4 whitespace-normal text-left pl-4">
+        <h3 className="font-serif text-3xl md:text-4xl lg:text-3xl text-sage-green mb-4 whitespace-normal text-left pl-4">
             CLOSE TO AIRPORT
           </h3>
           <div className="py-2">
@@ -112,7 +112,7 @@ const Hotels = () => {
           <div className="pl-4">
             <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40 mb-2">
               <div className="flex-1">
-                <h2 className="text-3xl text-sage-green font-serif mb-2">Hilton Minneapolis-St. Paul Airport</h2>
+                <h2 className="text-2xl text-sage-green font-serif mb-2">Hilton Minneapolis-St. Paul Airport</h2>
                 <p className="mb-1 text-sage-green">3800 American Blvd E</p>
                 <p className="mb-2 text-sage-green">Bloomington, MN 55425</p>
                 <div className="flex gap-8">
@@ -141,7 +141,7 @@ const Hotels = () => {
           </div>
 
           {/* Downtown Options - Moved inside the second column */}
-          <h3 className="font-serif text-3xl md:text-4xl lg:text-5xl text-sage-green mb-4 whitespace-normal text-left pl-4">
+          <h3 className="font-serif text-3xl md:text-4xl lg:text-3xl text-sage-green mb-4 whitespace-normal text-left pl-4">
             DOWNTOWN OPTIONS
           </h3>
           <div className="py-2">
@@ -150,7 +150,7 @@ const Hotels = () => {
           <div className="pl-4">
             <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40 mb-2">
               <div className="flex-1">
-                <h2 className="text-3xl text-sage-green font-serif mb-2">Hewing Hotel</h2>
+                <h2 className="text-2xl text-sage-green font-serif mb-2">Hewing Hotel</h2>
                 <p className="mb-1 text-sage-green">300 N Washington Ave</p>
                 <p className="mb-2 text-sage-green">Minneapolis, MN</p>
                 <div className="flex gap-8">
@@ -178,7 +178,7 @@ const Hotels = () => {
             </div>
             <div className="flex flex-col sm:flex-row items-start gap-4 min-h-[200px] sm:h-40">
               <div className="flex-1">
-                <h2 className="text-3xl text-sage-green font-serif mb-2">Emery Autograph Collection Hotel</h2>
+                <h2 className="text-2xl text-sage-green font-serif mb-2">Emery Autograph Collection Hotel</h2>
                 <p className="mb-1 text-sage-green">215 4th St South</p>
                 <p className="mb-2 text-sage-green">Minneapolis, MN</p>
                 <div className="flex gap-8">
