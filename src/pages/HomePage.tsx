@@ -4,8 +4,8 @@ import React from 'react';
 const HomePage: React.FC = () => {
   return (
     <div className="h-[calc(100vh-6rem)] w-full flex flex-col bg-white">
-      <main className="flex-grow flex items-center justify-center ">
-        <div className="container mx-auto px-4 sm:px-[20px] sm:max-w-[80%] sm:mr-[20%] py-4 sm:py-6 lg:py-12 xl:max-h-[1200px]">
+      <main className="flex-grow flex items-start sm:items-center justify-center pt-16 sm:pt-0">
+        <div className="container mx-auto px-4 pb-4 sm:px-[20px] sm:py-6 sm:max-w-[80%] sm:mr-[20%] lg:py-12 xl:max-h-[1200px]">
           <div className="text-center space-y-[-0.5rem] h-full max-h-[800px] flex flex-col max-w-[1200px] justify-center">
             <div className="flex flex-col sm:flex-row items-center sm:items-center sm:justify-between sm:space-x-4 space-y-4 sm:space-y-0 mb-4 sm:mb-0">
               <span className="text-sage-green font-['Harmond'] text-[3rem] sm:text-[clamp(2rem,8vw,8rem)] whitespace-normal sm:whitespace-nowrap">You're invited to</span>
