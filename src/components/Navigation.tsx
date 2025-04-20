@@ -59,6 +59,17 @@ const Navigation = () => {
                 </li>
                 <li>
                     <NavLink
+                        to="/transportation"
+                        onClick={() => setIsMenuOpen(false)}
+                        className={({ isActive }) =>
+                            `text-sage-green hover:text-green-800 ${isActive ? 'text-green-800 font-bold' : ''}`
+                        }
+                    >
+                        TRANSPORTATION
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink
                         to="/minneapolis"
                         onClick={() => setIsMenuOpen(false)}
                         className={({ isActive }) =>

@@ -4,6 +4,7 @@ import Navigation from './components/Navigation';
 import HomePage from './pages/HomePage';
 import Schedule from './pages/Schedule';
 import Hotels from './pages/Hotels';
+import Transportation from './pages/Transportation';
 import Minneapolis from './pages/Minneapolis';
 import Registry from './pages/Registry';
 import Mystery from './pages/Mystery';
@@ -40,6 +41,14 @@ function App() {
             element={
               <ProtectedRoute>
                 <Hotels />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/transportation"
+            element={
+              <ProtectedRoute>
+                <Transportation />
               </ProtectedRoute>
             }
           />
