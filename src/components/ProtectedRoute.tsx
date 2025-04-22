@@ -5,7 +5,7 @@ interface ProtectedRouteProps {
 }
 
 const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children }) => {
-    const isAuthenticated = sessionStorage.getItem('isAuthenticated') === 'true';
+    const isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
 
     if (!isAuthenticated) {
         return <Navigate to="/password" replace />;

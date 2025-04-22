@@ -10,7 +10,7 @@ const PasswordProtection: React.FC = () => {
     const correctPassword2 = import.meta.env.VITE_SITE_PASSWORD2;
     useEffect(() => {
         // Check if already authenticated
-        const isAuthenticated = sessionStorage.getItem('isAuthenticated');
+        const isAuthenticated = localStorage.getItem('isAuthenticated');
         if (isAuthenticated === 'true') {
             navigate('/');
         }
@@ -19,7 +19,7 @@ const PasswordProtection: React.FC = () => {
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         if (password === correctPassword || password === correctPassword2) {
-            sessionStorage.setItem('isAuthenticated', 'true');
+            localStorage.setItem('isAuthenticated', 'true');
             navigate('/');
         } else {
             setError('Incorrect password');
