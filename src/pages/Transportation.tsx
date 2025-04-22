@@ -17,7 +17,7 @@ const Transportation: React.FC = () => {
                 <div className="prose prose-lg text-sage-green max-w-3xl">
                     <p className="text-5xl md:text-4xl font-harmond leading-relaxed mb-6">
                         Want a ride from our ceremony to the reception? It's about a 20 minute ride. We got you.
-                        Hope on our yellow schoolbus that will (safely) take you to the party! Yee haw!
+                        Hop on our yellow schoolbus that will (safely) take you to the party! Yee haw!
                     </p>
 
                     <div className="mt-10 space-y-6 text-left">
