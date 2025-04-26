@@ -4,7 +4,6 @@ import Navigation from './components/Navigation';
 import HomePage from './pages/HomePage';
 import Schedule from './pages/Schedule';
 import Hotels from './pages/Hotels';
-import Transportation from './pages/Transportation';
 import Minneapolis from './pages/Minneapolis';
 import Registry from './pages/Registry';
 import Mystery from './pages/Mystery';
@@ -12,6 +11,8 @@ import CountdownTimer from './components/CountdownTimer';
 import PasswordProtection from './components/PasswordProtection';
 import ProtectedRoute from './components/ProtectedRoute';
 import FAQ from './pages/FAQ';
+import Transportation from './pages/Transportation';
+import ReceptionMap from './pages/ReceptionMap';
 
 function App() {
   return (
@@ -81,6 +82,14 @@ function App() {
             element={
               <ProtectedRoute>
                 <FAQ />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/reception-map"
+            element={
+              <ProtectedRoute>
+                <ReceptionMap />
               </ProtectedRoute>
             }
           />
