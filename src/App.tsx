@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import HomePage from './pages/HomePage';
 import Schedule from './pages/Schedule';
@@ -54,6 +54,14 @@ function App() {
             }
           />
           <Route
+            path="/reception-map"
+            element={
+              <ProtectedRoute>
+                <ReceptionMap />
+              </ProtectedRoute>
+            }
+          />
+          <Route
             path="/minneapolis"
             element={
               <ProtectedRoute>
@@ -82,14 +90,6 @@ function App() {
             element={
               <ProtectedRoute>
                 <FAQ />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/reception-map"
-            element={
-              <ProtectedRoute>
-                <ReceptionMap />
               </ProtectedRoute>
             }
           />
